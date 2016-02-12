@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "InzWebApi"
+  },
+  "hostingPlanName": {
+    "value": "InzService"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "inzdb"
+  },
+  "serverLocation": {
+    "value": "North Europe"
+  },
+  "administratorLogin": {
+    "value": "piotreqm"
+  },
+  "administratorLoginPassword": {
+    "value": "PqLenOVO20!%"
+  },
+  "databaseName": {
+    "value": "InzWebApi_db"
+  }
+}

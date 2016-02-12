@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rowLinearLayout"
+    android:weightSum="90">
+    <TextView
+        android:text="Imię"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/nameTextView"
+        android:layout_weight="27"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Nazwisko"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/surnameTextView"
+        android:layout_weight="36"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Urodzony"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/dateOfBirthTextView"
+        android:layout_weight="27"
+        android:gravity="center"
+        android:textSize="25dp" />
+</LinearLayout>

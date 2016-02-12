@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100">
+    <TextView
+        android:text="Przypomnienie hasła"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:id="@+id/forgottenPwText"
+        android:editable="false"
+        android:textSize="30dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:id="@+id/forgottenPwEmailField"
+        android:hint="Adres e-mail"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="25" />
+    <Button
+        android:text="Przypomnij"
+        android:layout_width="match_parent"
+        android:id="@+id/remindButton"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="20"
+        android:layout_height="0dp" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="Rejestracja"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regEMailEditText"
+            android:hint="Adres e-mail"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regPwEditText"
+            android:hint="Hasło"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regPwConfirmEditText"
+            android:hint="Powtórz hasło"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regNameEditText"
+            android:hint="Imię"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textCapSentences" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regSurnameEditText"
+            android:hint="Nazwisko"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textCapSentences" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regDoBTextView"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="Data urodzenia: "
+            android:editable="false"
+            android:clickable="true"
+            android:textSize="18dp" />
+        <Button
+            android:text="Zarejestruj"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/regButton"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+    </LinearLayout>
+</ScrollView>

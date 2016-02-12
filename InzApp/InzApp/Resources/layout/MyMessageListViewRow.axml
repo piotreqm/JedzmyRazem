@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rowLinearLayout"
+    android:weightSum="90">
+    <TextView
+        android:text="Czas"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/timeTextView"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/startPlaceTextView"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Koniec"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/endPlaceTextView"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textSize="25dp" />
+</LinearLayout>

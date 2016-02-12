@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="InzApp.InzApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="11" />
+  <application android:label="InzApp" android:icon="@drawable/logo" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="@string/AddFriendLabel" android:name="md5664acae71a078b4330856ad002cc246f.AddFriendActivity" />
+    <activity android:label="@string/FindFriendToAddLabel" android:name="md5664acae71a078b4330856ad002cc246f.FindFriendToAddActivity" />
+    <activity android:label="@string/ForgottenPwLabel" android:name="md5664acae71a078b4330856ad002cc246f.ForgottenPwActivity" />
+    <activity android:label="@string/FriendsMessagesLabel" android:name="md5664acae71a078b4330856ad002cc246f.FriendsMessagesActivity" />
+    <activity android:label="@string/ApplicationName" android:name="md5664acae71a078b4330856ad002cc246f.LoginActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="@string/MainLabel" android:name="md5664acae71a078b4330856ad002cc246f.MainActivity" />
+    <activity android:label="@string/FriendMessagesLabel" android:name="md5664acae71a078b4330856ad002cc246f.MyFriendMessagesActivity" />
+    <activity android:label="@string/MyFriendsLabel" android:name="md5664acae71a078b4330856ad002cc246f.MyFriendsActivity" />
+    <activity android:label="@string/MyMessagesLabel" android:name="md5664acae71a078b4330856ad002cc246f.MyMessagesActivity" />
+    <activity android:label="@string/FindOtherTravelers" android:name="md5664acae71a078b4330856ad002cc246f.FindOtherTravelersActivity" />
+    <activity android:label="@string/NewMessageLabel" android:name="md5664acae71a078b4330856ad002cc246f.NewMessageActivity" />
+    <activity android:label="@string/OtherTravelersLabel" android:name="md5664acae71a078b4330856ad002cc246f.OtherTravelersActivity" />
+    <activity android:label="@string/RegisterLabel" android:name="md5664acae71a078b4330856ad002cc246f.RegisterActivity" />
+    <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md59cce2520a67eb248c2a9787264933ba6.ConnectivityChangeBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="InzApp.InzApp.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.InzApp.InzApp" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
